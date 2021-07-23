@@ -28,7 +28,19 @@ This repository contains:
     
     Step3: Outlier handling for nighttime light composites data
     function: Del_maxValue()
-  
+ 
+ ## The operating environment
+ 
+ The version of the required library
+ 
+ python-3.7
+ 
+ scikit-learn-0.24.1
+ 
+ torch-1.7.1
+ 
+ gdal-2.2.4
+ 
  ## Resources
  
  Original dataset can be found here:
