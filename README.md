@@ -32,6 +32,8 @@ This repository contains:
   3. The "CNN-based Transfer learning" contains code files for finetruning the ResNet-50 m model to extracte the landscape features from the Google Earth images.
   
     "main.py" is the main file.
+    
+    "Feature-extraction.py" : This fuction is to extract landscape features based on the trained CNN-based model from Google Earth images at patch and the sub-district level.
      
      The 'resnet50_places365.pth.tar' can be download from https://github.com/kywch/Vis_places365.
  
