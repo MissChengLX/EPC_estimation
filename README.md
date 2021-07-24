@@ -39,6 +39,16 @@ This repository contains:
  
  The Release contains the pre-trained model (resnet50_places365.pth.tar) and the feature extraction model (best_model.pth) after fine-turning.
  
+  4. The "RFR model" contians code files for estimating EPC (electric power consumption) using a RFR model.
+  
+    The related code fuctions are in the "EPC_estimation.py" file.
+    
+    train_model() # Training a RFR model
+    
+    EPC_estimation() # EPC estimation based on the trained RFR model
+    
+    normalization(year) # Normalized the EPC estimation results from 2013 to 2019
+ 
  ## The operating environment
  
  The version of the required library
