@@ -33,7 +33,7 @@ This repository contains:
   
     "main.py" is the main file.
      
-     The 'resnet50_places365.pth.tar' can be download form https://github.com/kywch/Vis_places365.
+     The 'resnet50_places365.pth.tar' can be download from https://github.com/kywch/Vis_places365.
  
  ## The operating environment
  
