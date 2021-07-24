@@ -33,7 +33,7 @@ This repository contains:
   
     "main.py" is the main file.
     
-    "Feature-extraction.py" : This fuction is to extract landscape features based on the trained CNN-based model from Google Earth images at patch and the sub-district level.
+    "Feature-extraction.py" : This fuction is to extract landscape features based on the trained CNN-based model from Google Earth images at patch and the sub-district level. It running after "main.py".
      
      The 'resnet50_places365.pth.tar' can be download from https://github.com/kywch/Vis_places365.
  
