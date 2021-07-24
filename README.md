@@ -28,6 +28,10 @@ This repository contains:
     
     Step3: Outlier handling for nighttime light composites data
     function: Del_maxValue()
+    
+  3. The "CNN-based Transfer learning" contains code files for finetruning the ResNet-50 m model to extracte the landscape features from the Google Earth images.
+  
+     "main.py" is the main file.
  
  ## The operating environment
  
