@@ -45,7 +45,7 @@ def get_resnet():
             #print(name.split('.')[2][:2])
             value.requires_grad = True
         elif name =='layer4.2.conv3.weight':
-            value.requires_grad =True  # retrained the last convolutional layers
+            value.requires_grad =True  # retrained the last convolutional layer
         else:
             value.requires_grad = False
 
@@ -53,7 +53,7 @@ def get_resnet():
         nn.Flatten(),
         nn.BatchNorm1d(2048),
         nn.Dropout(0.5),
-        nn.Linear(2048, 512), #512
+        nn.Linear(2048, 512), 
         nn.ReLU(),  # activation layer
         nn.Dropout(0.4),
         #nn.BatchNorm1d(512),
